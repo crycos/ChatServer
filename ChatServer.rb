@@ -42,8 +42,6 @@ class ChatServer < GServer
 		end
 	end
 end
-
-
 server = ChatServer.new(1235, '127.0.0.1')
 server.start
 loop do
